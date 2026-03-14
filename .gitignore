@@ -1,0 +1,19 @@
+# Ignore large datasets
+cleaned_device.csv
+cleaned_file.csv
+cleaned_logon.csv
+merged_dataset.csv
+
+# Ignore all csv by default
+*.csv
+
+# Allow sample dataset
+!data/sample_device.csv
+!data/sample_file.csv
+!data/sample_logon.csv
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore anaconda folders
+anaconda_projects/
